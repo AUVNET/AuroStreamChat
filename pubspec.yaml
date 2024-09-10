@@ -1,0 +1,24 @@
+name: auro_stream_chat
+description: "Auro Stream Chat for iOS/Android/Desktop/Web"
+version: 0.0.1
+homepage: https://github.com/AUVNET/AuroStreamChat
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  pointycastle: ^3.7.4
+  socket_io_client: ^2.0.3+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+

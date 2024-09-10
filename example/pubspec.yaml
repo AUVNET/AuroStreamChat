@@ -1,0 +1,25 @@
+name: auro_stream_chat_example
+description: "Demonstrates how to use the AuroStream Chat package."
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  auro_stream_chat:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
